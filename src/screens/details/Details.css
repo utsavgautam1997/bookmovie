@@ -1,0 +1,30 @@
+.back {
+  margin-top: 8px;
+  margin-bottom: 0px;
+  margin-left: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+.abc {
+  display: flex;
+
+}
+.abc div:nth-of-type(1) {
+  margin:5px;
+  flex-basis: 20%;
+}
+.abc div:nth-of-type(2) {
+  flex-basis: 60%;
+}
+.abc div:nth-of-type(3) {
+  flex-basis: 20%;
+}
+.artistGrid {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.box:hover {
+  display:inline;
+  color: yellow;
+  cursor: pointer;
+}
